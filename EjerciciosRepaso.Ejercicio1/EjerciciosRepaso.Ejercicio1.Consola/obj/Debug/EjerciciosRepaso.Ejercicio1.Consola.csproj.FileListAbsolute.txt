@@ -1,0 +1,7 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\bin\Debug\EjerciciosRepaso.Ejercicio1.Consola.exe.config
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\bin\Debug\EjerciciosRepaso.Ejercicio1.Consola.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\bin\Debug\EjerciciosRepaso.Ejercicio1.Consola.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\obj\Debug\EjerciciosRepaso.Ejercicio1.Consola.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\obj\Debug\EjerciciosRepaso.Ejercicio1.Consola.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\obj\Debug\EjerciciosRepaso.Ejercicio1.Consola.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\EjerciciosRepaso.Ejercicio1\EjerciciosRepaso.Ejercicio1.Consola\obj\Debug\EjerciciosRepaso.Ejercicio1.Consola.pdb
