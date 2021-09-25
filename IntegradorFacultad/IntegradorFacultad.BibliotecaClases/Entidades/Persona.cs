@@ -11,5 +11,61 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
         protected string _apellido;
         protected DateTime _fechaNac;
         protected string _nombre;
+    
+        public Persona(DateTime FechaNac)
+        {
+            FechaNac = _fechaNac;
+        }
+        public string Apellido
+        {
+            get
+            {
+                return _apellido;
+            }
+            set
+            {
+                _apellido = value;
+            }
+        }
+
+        public string Nombre
+        {
+            get
+            {
+                return _nombre;
+            }
+            set
+            {
+                _nombre = value;
+            }
+        }
+
+        public int Edad
+        {
+            get
+            {
+                if(DateTime.Now.Month >= _fechaNac.Month)
+                {
+                    if(DateTime.Now.Day >= _fechaNac.Month)
+                    {
+                        return (DateTime.Now.Year - _fechaNac.Year);
+                    }
+                }
+                return (DateTime.Now.Year - _fechaNac.Year - 1);
+            }
+        }
+
+        public virtual string GetCredencial()
+        {
+            return ("Nombre: " + this._nombre + System.Environment.NewLine + "Apellido: " + this._apellido + System.Environment.NewLine + "Edad: " + Convert.ToString(this.Edad));
+        }
+
+        public virtual string GetNombreCompleto()
+        {
+            return String.Format("{0}, {1}", this.Nombre, this.Apellido);
+        }
+
+
     }
+
 }
