@@ -16,6 +16,14 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
         {
             FechaNac = _fechaNac;
         }
+
+        public Persona(DateTime FechaNac, string Apellido, string Nombre)
+        {
+            _fechaNac = FechaNac;
+            _apellido = Apellido;
+            _nombre = Nombre;
+        }
+
         public string Apellido
         {
             get
@@ -44,14 +52,15 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
         {
             get
             {
-                if(DateTime.Now.Month >= _fechaNac.Month)
+                if((DateTime.Now.Month >= _fechaNac.Month) && (DateTime.Now.Day >= _fechaNac.Day))
                 {
-                    if(DateTime.Now.Day >= _fechaNac.Month)
-                    {
-                        return (DateTime.Now.Year - _fechaNac.Year);
-                    }
+                    return (DateTime.Now.Year - _fechaNac.Year);
+
                 }
-                return (DateTime.Now.Year - _fechaNac.Year - 1);
+                else
+                { 
+                    return (DateTime.Now.Year - _fechaNac.Year - 1);
+                }
             }
         }
 
