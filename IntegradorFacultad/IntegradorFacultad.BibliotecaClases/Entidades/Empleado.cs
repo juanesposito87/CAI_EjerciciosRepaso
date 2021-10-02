@@ -20,17 +20,22 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
             LegajoActual++;
             _salarios = new List<Salario>();
         }
+        
 
         public void AgregarSalario(Salario S)
         {
             _salarios.Add(S);
         }
 
-        //public override bool Equals(Empleado e)
-        //{
-        //    if (e._legajo is )
-        //    return base.Equals(obj);
-        //}
+        public override bool Equals(object obj)
+        {
+            if (this.GetType().Equals(obj.GetType()))
+            {
+                Empleado e = (Empleado)obj;
+                return (this.Legajo == e.Legajo);
+            }
+            return false;
+        }
 
         public override string GetCredencial()
         {

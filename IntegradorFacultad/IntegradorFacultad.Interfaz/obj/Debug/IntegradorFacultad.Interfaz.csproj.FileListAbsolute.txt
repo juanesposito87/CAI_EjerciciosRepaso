@@ -1,0 +1,10 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\bin\Debug\IntegradorFacultad.Interfaz.exe.config
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\bin\Debug\IntegradorFacultad.Interfaz.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\bin\Debug\IntegradorFacultad.Interfaz.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\bin\Debug\IntegradorFacultad.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\bin\Debug\IntegradorFacultad.BibliotecaClases.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\obj\Debug\IntegradorFacultad.Interfaz.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\obj\Debug\IntegradorFacultad.Interfaz.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\obj\Debug\IntegradorFacultad.Interfaz.csproj.CopyComplete
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\obj\Debug\IntegradorFacultad.Interfaz.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Interfaz\obj\Debug\IntegradorFacultad.Interfaz.pdb

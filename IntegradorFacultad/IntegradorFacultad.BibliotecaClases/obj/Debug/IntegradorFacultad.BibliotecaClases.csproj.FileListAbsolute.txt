@@ -1,0 +1,6 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.BibliotecaClases\bin\Debug\IntegradorFacultad.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.BibliotecaClases\bin\Debug\IntegradorFacultad.BibliotecaClases.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.BibliotecaClases\obj\Debug\IntegradorFacultad.BibliotecaClases.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.BibliotecaClases\obj\Debug\IntegradorFacultad.BibliotecaClases.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.BibliotecaClases\obj\Debug\IntegradorFacultad.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.BibliotecaClases\obj\Debug\IntegradorFacultad.BibliotecaClases.pdb

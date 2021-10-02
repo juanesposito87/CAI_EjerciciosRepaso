@@ -14,7 +14,7 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
     
         public Persona(DateTime FechaNac)
         {
-            FechaNac = _fechaNac;
+            _fechaNac = FechaNac;
         }
 
         public Persona(DateTime FechaNac, string Apellido, string Nombre)

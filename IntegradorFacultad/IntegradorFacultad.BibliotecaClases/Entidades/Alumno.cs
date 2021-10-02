@@ -15,7 +15,7 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
         }
         public Alumno(DateTime FechaNac, int Codigo) : base(FechaNac)
         {
-            Codigo = _codigo;
+            _codigo = Codigo;
         }
 
         public override string GetCredencial()
@@ -38,6 +38,16 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
         public override string ToString()
         {
             return this.GetCredencial();
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (this.GetType().Equals(obj.GetType()))
+            {
+                Alumno e = (Alumno)obj;
+                return (this.Codigo == e.Codigo);
+            }
+            return false;
         }
     }
 }

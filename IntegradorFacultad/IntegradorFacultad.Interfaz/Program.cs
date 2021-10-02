@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IntegradorFacultad.BibliotecaClases;
+using IntegradorFacultad.BibliotecaClases.Entidades;
 
 namespace IntegradorFacultad.Interfaz
 {
@@ -11,6 +12,7 @@ namespace IntegradorFacultad.Interfaz
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
