@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E86D9BE6-D256-47C0-9315-8DD135C2F5EB}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>IntegradorFacultad.Interfaz</RootNamespace>
-    <AssemblyName>IntegradorFacultad.Interfaz</AssemblyName>
+    <ProjectGuid>{50EE7227-C351-49F3-A391-DAEC3C132853}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntegradorFacultad.Utilidades</RootNamespace>
+    <AssemblyName>IntegradorFacultad.Utilidades</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\IntegradorFacultad.BibliotecaClases\IntegradorFacultad.BibliotecaClases.csproj">
-      <Project>{924dfc99-827b-4280-be3d-ec03e8bfd2d4}</Project>
-      <Name>IntegradorFacultad.BibliotecaClases</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IntegradorFacultad.Utilidades\IntegradorFacultad.Utilidades.csproj">
-      <Project>{50ee7227-c351-49f3-a391-daec3c132853}</Project>
-      <Name>IntegradorFacultad.Utilidades</Name>
-    </ProjectReference>
+    <Compile Include="Validaciones.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

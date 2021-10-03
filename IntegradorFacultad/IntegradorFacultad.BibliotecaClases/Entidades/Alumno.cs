@@ -18,6 +18,11 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
             _codigo = Codigo;
         }
 
+        public Alumno(DateTime FechaNac, string Ap, string No, int Codigo) : base(FechaNac, Ap, No)
+        {
+            _codigo = Codigo;
+        }
+
         public override string GetCredencial()
         {
             return String.Format("Código {0} {1}, {2}", this._codigo, this._apellido, this._nombre);

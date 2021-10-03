@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegradorFacultad.Interfaz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegradorFacultad.BibliotecaClases", "IntegradorFacultad.BibliotecaClases\IntegradorFacultad.BibliotecaClases.csproj", "{924DFC99-827B-4280-BE3D-EC03E8BFD2D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegradorFacultad.Utilidades", "IntegradorFacultad.Utilidades\IntegradorFacultad.Utilidades.csproj", "{50EE7227-C351-49F3-A391-DAEC3C132853}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{924DFC99-827B-4280-BE3D-EC03E8BFD2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{924DFC99-827B-4280-BE3D-EC03E8BFD2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{924DFC99-827B-4280-BE3D-EC03E8BFD2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EE7227-C351-49F3-A391-DAEC3C132853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EE7227-C351-49F3-A391-DAEC3C132853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EE7227-C351-49F3-A391-DAEC3C132853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EE7227-C351-49F3-A391-DAEC3C132853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

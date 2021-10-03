@@ -74,7 +74,6 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
             return String.Format("{0}, {1}", this.Nombre, this.Apellido);
         }
 
-
     }
 
 }

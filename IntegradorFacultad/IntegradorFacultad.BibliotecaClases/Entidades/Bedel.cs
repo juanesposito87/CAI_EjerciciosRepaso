@@ -8,7 +8,7 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
 {
     public class Bedel : Empleado
     {
-        private string _apodo;
+        protected string _apodo;
         public Bedel(DateTime FechaNac, DateTime FechaIng, string Ape, string Nomb) : base(FechaNac, FechaIng, Ape, Nomb)
         {
 

@@ -24,7 +24,7 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
 
         public void AgregarSalario(Salario S)
         {
-            _salarios.Add(S);
+            this._salarios.Add(S);
         }
 
         public override bool Equals(object obj)
@@ -47,11 +47,8 @@ namespace IntegradorFacultad.BibliotecaClases.Entidades
         {
             return _salarios.Last();
         }
-
-        public override string GetNombreCompleto()
-        {
-            return base.GetNombreCompleto();
-        }
+       
+        public abstract override string GetNombreCompleto();
 
         public override string ToString()
         {
