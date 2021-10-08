@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using IntegradorFacultad.BibliotecaClases;
 using IntegradorFacultad.BibliotecaClases.Entidades;
-using IntegradorFacultad.BibliotecaClases.Exception;
+using IntegradorFacultad.BibliotecaClases.Excepciones;
 using IntegradorFacultad.Utilidades;
 
 namespace IntegradorFacultad.Interfaz
