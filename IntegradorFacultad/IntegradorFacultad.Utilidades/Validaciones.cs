@@ -20,6 +20,7 @@ namespace IntegradorFacultad.Utilidades
             return !(String.IsNullOrEmpty(Valor));
         }
 
+
         //Validaciones de Números
         public static int PedirInt (string Campo)
         {
@@ -89,6 +90,7 @@ namespace IntegradorFacultad.Utilidades
             return (Dato > 0);
         }
 
+
         //Validaciones de Fechas
 
         public static DateTime PedirFecha(string Campo)
@@ -110,5 +112,21 @@ namespace IntegradorFacultad.Utilidades
 
         }
 
+        public static bool FechaMayorAMinimo(DateTime Fecha, byte Minimo)
+        {
+            if ((DateTime.Now.Month >= Fecha.Month) && (DateTime.Now.Day >= Fecha.Day))
+            {
+                return ((DateTime.Now.Year - Fecha.Year) >= Minimo);
+            }
+            else
+            {
+                return ((DateTime.Now.Year - Fecha.Year - 1) >= Minimo);
+            }
+        }
+
+        public static bool FechaFutura(DateTime Fecha)
+        {
+            return (Fecha > DateTime.Now);
+        }
     }
 }
