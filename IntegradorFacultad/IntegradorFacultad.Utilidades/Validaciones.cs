@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntegradorFacultad.Utilidades
+namespace Presentismo.Utilidades
 {
     public static class Validaciones
     {
