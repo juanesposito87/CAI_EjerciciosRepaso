@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{194A156F-6EB0-47C3-9F09-FB00519DB75E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Presentismo.Interfaz</RootNamespace>
-    <AssemblyName>Presentismo.Interfaz</AssemblyName>
+    <ProjectGuid>{F7F35B86-FDE2-4D7B-B246-6A85D9F68B75}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentismo.BibliotecaClases</RootNamespace>
+    <AssemblyName>Presentismo.BibliotecaClases</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Entidades\Abstractas\Alumno.cs" />
+    <Compile Include="Entidades\AlumnoOyente.cs" />
+    <Compile Include="Entidades\AlumnoRegular.cs" />
+    <Compile Include="Entidades\Asistencia.cs" />
+    <Compile Include="Entidades\Abstractas\Persona.cs" />
+    <Compile Include="Entidades\Preceptor.cs" />
+    <Compile Include="Entidades\Presentismo.cs" />
+    <Compile Include="Enum\AlumnoTipo.cs" />
+    <Compile Include="Excepciones\AsistenciaExistenteEseDiaException.cs" />
+    <Compile Include="Excepciones\AsistenciaInconsistenteException.cs" />
+    <Compile Include="Excepciones\SinAlumnosRegistradosException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\IntegradorFacultad\IntegradorFacultad.Utilidades\Presentismo.Utilidades.csproj">
-      <Project>{50ee7227-c351-49f3-a391-daec3c132853}</Project>
-      <Name>Presentismo.Utilidades</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Presentismo.BibliotecaClases\Presentismo.BibliotecaClases.csproj">
-      <Project>{f7f35b86-fde2-4d7b-b246-6a85d9f68b75}</Project>
-      <Name>Presentismo.BibliotecaClases</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

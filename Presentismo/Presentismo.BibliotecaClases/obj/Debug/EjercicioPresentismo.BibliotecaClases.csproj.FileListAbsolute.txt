@@ -1,0 +1,6 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.BibliotecaClases\bin\Debug\Presentismo.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.BibliotecaClases\bin\Debug\Presentismo.BibliotecaClases.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.BibliotecaClases\obj\Debug\EjercicioPresentismo.BibliotecaClases.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.BibliotecaClases\obj\Debug\EjercicioPresentismo.BibliotecaClases.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.BibliotecaClases\obj\Debug\Presentismo.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.BibliotecaClases\obj\Debug\Presentismo.BibliotecaClases.pdb

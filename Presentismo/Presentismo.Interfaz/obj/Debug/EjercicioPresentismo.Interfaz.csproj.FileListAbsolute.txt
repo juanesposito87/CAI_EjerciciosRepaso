@@ -1,0 +1,12 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\Presentismo.Interfaz.exe.config
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\Presentismo.Interfaz.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\Presentismo.Interfaz.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\IntegradorFacultad.Utilidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\Presentismo.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\IntegradorFacultad.Utilidades.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\bin\Debug\Presentismo.BibliotecaClases.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\obj\Debug\EjercicioPresentismo.Interfaz.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\obj\Debug\EjercicioPresentismo.Interfaz.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\obj\Debug\EjercicioPresentismo.Interfaz.csproj.CopyComplete
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\obj\Debug\Presentismo.Interfaz.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Presentismo\Presentismo.Interfaz\obj\Debug\Presentismo.Interfaz.pdb

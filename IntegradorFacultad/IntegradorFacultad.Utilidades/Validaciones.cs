@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Presentismo.Utilidades
+namespace EjercicioPresentismo.Utilidades
 {
     public static class Validaciones
     {

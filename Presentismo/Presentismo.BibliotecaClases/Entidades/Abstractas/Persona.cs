@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Presentismo.BibliotecaClases.Entidades
+namespace EjercicioPresentismo.BibliotecaClases.Entidades.Abstractas
 {
     public abstract class Persona
     {
@@ -41,7 +41,23 @@ namespace Presentismo.BibliotecaClases.Entidades
             }
         }
 
+        public override string ToString()
+        {
+            if (this is Preceptor)
+            {
+                return String.Format("{0} - {1}", _apellido, ((Preceptor)this).Legajo);
+            }
+            else if (this is Alumno)
+            {
+                return String.Format("{0} ({1})", _nombre, ((Alumno)this).Registro);
+            }
+            else
+            {
+                return "Error inesperado";
+            }
+        }
 
+        internal abstract string Display();
 
     }
 }

@@ -1,0 +1,6 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Utilidades\bin\Debug\IntegradorFacultad.Utilidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Utilidades\bin\Debug\IntegradorFacultad.Utilidades.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Utilidades\obj\Debug\EjercicioPresentismo.Utilidades.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Utilidades\obj\Debug\EjercicioPresentismo.Utilidades.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Utilidades\obj\Debug\IntegradorFacultad.Utilidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\IntegradorFacultad\IntegradorFacultad.Utilidades\obj\Debug\IntegradorFacultad.Utilidades.pdb
