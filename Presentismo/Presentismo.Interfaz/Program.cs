@@ -54,8 +54,7 @@ namespace EjercicioPresentismo.Interfaz
             List<Asistencia> ListaAsist = new List<Asistencia>();
             string input = Validaciones.PedirString("fecha");
             string inputbool = "";
-
-            Console.WriteLine(_presentismo.GetListaAlumnos().);
+            //Console.WriteLine(_presentismo.GetListaAlumnos().);
             foreach (Alumno a in _presentismo.GetListaAlumnos())
                 if (a is AlumnoRegular)
                 {
@@ -75,6 +74,10 @@ namespace EjercicioPresentismo.Interfaz
                             Console.WriteLine("Opción incorrecta.");
                             break;
                     }
+                }
+                else if (a is AlumnoOyente)
+                {
+                    Console.WriteLine(String.Format("El alumno {0} es oyente.", a.ToString()));
                 }
             try
             {

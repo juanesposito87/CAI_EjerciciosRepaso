@@ -39,7 +39,18 @@ namespace EjercicioPresentismo.BibliotecaClases.Entidades
 
         internal override string Display()
         {
-            return this.ToString();
+            if (this is AlumnoRegular)
+            {
+                return this.ToString();
+            }
+            if (this is AlumnoOyente)
+            {
+                return String.Format("El alumno {0} es oyente.", this.ToString());
+            }
+            else
+            {
+                return "Error inesperado.";
+            }
         }
     }
 }

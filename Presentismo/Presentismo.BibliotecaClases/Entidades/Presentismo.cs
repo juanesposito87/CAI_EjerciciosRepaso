@@ -76,6 +76,7 @@ namespace EjercicioPresentismo.BibliotecaClases.Entidades
                     {
                         _asistencias.Add(a);
                     }
+                    _fechas.Add(Fecha);
                 }
                 else
                 {
