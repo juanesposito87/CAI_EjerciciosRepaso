@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EjercicioPresentismo.Utilidades
+namespace EjercicioIndumentaria.Utilidades
 {
     public static class Validaciones
     {
@@ -128,5 +128,29 @@ namespace EjercicioPresentismo.Utilidades
         {
             return (Fecha > DateTime.Now);
         }
+
+        //Validaciones de Booleanos
+        public static bool PedirBool(string Campo)
+        {
+            string input = "";
+            do
+            {
+                Console.WriteLine(String.Format("Por favor, ingrese el valor para el campo {0} (S/N)", Campo));
+                input = Console.ReadLine();
+                if ((input == "S") || (input == "s"))
+                {
+                    return true;
+                }
+                else if ((input == "N") || (input == "n"))
+                {
+                    return false;
+                }
+                else
+                {
+                    Console.WriteLine("Entrada incorrecta, por favor reintente.");
+                }
+            } while (input != "N" || input != "n" || input != "S" || input != "s");
+        }
+
     }
 }
