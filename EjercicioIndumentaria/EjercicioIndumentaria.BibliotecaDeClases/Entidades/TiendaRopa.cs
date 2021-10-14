@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using EjercicioIndumentaria.BibliotecaDeClases.Entidades.Abstractas;
 using EjercicioIndumentaria.BibliotecaDeClases.Enum;
+using EjercicioIndumentaria.BibliotecaDeClases.Excepciones;
 
 namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
 {
@@ -64,9 +65,38 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
 
         public static void IngresarOrden(Venta v)
         {
-            v.Estado = (int)EstadoVenta.Procesada;
-            _ventas.Add(v);
-            _ultimoCodigo = v.Codigo;
+            bool Flag = true;
+            string PrendaAgotada = "";
+            foreach (VentaItem item in v.Items)
+            {
+                if (item.Cantidad > (TiendaRopa._inventario.Find(i => i.Equals(item)).Stock))
+                {
+                    Flag = false;
+                    PrendaAgotada = item.Prenda.GetDetalle();
+                }
+            }
+
+            if (Flag == true)
+            {
+                v.Estado = (int)EstadoVenta.Procesada;
+                _ventas.Add(v);
+                _ultimoCodigo = v.Codigo;
+                foreach (Indumentaria indum in TiendaRopa._inventario)
+                {
+                    foreach(VentaItem it in v.Items)
+                    {
+                        if (indum.Equals(it))
+                        {
+                            indum.Stock -= it.Cantidad;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                throw new SinStockException(PrendaAgotada);
+            }
+
         }
 
         public static List<Indumentaria> Listar()
@@ -82,6 +112,49 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
         public static void DevolverOrden(Venta v)
         {
             v.Estado = (int)EstadoVenta.Devuelto;    
+        }
+
+        public static void Modificar(Indumentaria i, int NuevoStock)
+        {
+            int Index = -1;
+            foreach (Indumentaria indu in _inventario)
+            {
+                if(i.Equals(indu))
+                {
+                    Index = _inventario.IndexOf(indu);
+                }
+            }
+
+            if(Index != -1)
+            {
+                _inventario.ElementAt(Index).Stock = NuevoStock;
+            }
+            else
+            {
+                throw new Exception("El código es incorrecto.");
+            }
+            
+        }
+
+        public static void Eliminar(Indumentaria i)
+        {
+            int Index = -1;
+            foreach (Indumentaria indu in _inventario)
+            {
+                if (i.Equals(indu))
+                {
+                    Index = _inventario.IndexOf(indu);
+                }
+            }
+
+            if (Index != -1)
+            {
+                _inventario.RemoveAt(Index);
+            }
+            else
+            {
+                throw new Exception("El código es incorrecto.");
+            }
         }
     }
 }

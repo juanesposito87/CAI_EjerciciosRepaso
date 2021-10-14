@@ -40,6 +40,10 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
             }
         }
 
+        public Pantalon(int Codigo) : base(Codigo)
+        {
+
+        }
         public Pantalon(TipoIndumentaria Tipo, bool Bolsillos, string Material) : base(Tipo)
         {
             _tieneBolsillos = Bolsillos;

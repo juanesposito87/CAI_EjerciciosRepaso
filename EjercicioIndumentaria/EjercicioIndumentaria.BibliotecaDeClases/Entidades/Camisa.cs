@@ -30,6 +30,10 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
             _tipoManga = Manga;
         }
 
+        public Camisa(int Codigo) : base(Codigo)
+        {
+
+        }
         public override string GetDetalle()
         {
             return String.Format("Código {0} - Camisa {1} {2} - Talle {3}", _codigo, _tipoManga, StrEstampado(), _talle);

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EjercicioIndumentaria.BibliotecaDeClases.Excepciones
 {
-    class SinStockException
+    public class SinStockException : Exception
     {
+        public SinStockException(string Prenda) : base(String.Format("No hay stock suficiente para la prenda {0}",Prenda))
+        {
+
+        }
     }
 }

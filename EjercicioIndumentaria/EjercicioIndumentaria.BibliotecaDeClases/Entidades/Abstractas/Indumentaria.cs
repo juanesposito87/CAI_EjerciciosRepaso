@@ -15,6 +15,10 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades.Abstractas
         protected double _precio;
         private static int CodigoActual;
 
+        public Indumentaria(int Codigo)
+        {
+            _codigo = Codigo;
+        }
         public Indumentaria(TipoIndumentaria Tipo)
         {
             _tipo = Tipo;
@@ -83,6 +87,14 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades.Abstractas
             set
             {
                 _precio = value;
+            }
+        }
+
+        public int Codigo
+        {
+            get
+            {
+                return _codigo;
             }
         }
 

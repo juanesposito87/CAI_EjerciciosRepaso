@@ -7,7 +7,7 @@ using EjercicioIndumentaria.BibliotecaDeClases.Entidades.Abstractas;
 
 namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
 {
-    class IndumentariaFormal : TipoIndumentaria
+    public class IndumentariaFormal : TipoIndumentaria
     {
         public IndumentariaFormal(string Origen, double Porcentaje) : base (Origen, Porcentaje)
         {

@@ -133,23 +133,26 @@ namespace EjercicioIndumentaria.Utilidades
         public static bool PedirBool(string Campo)
         {
             string input = "";
+            bool Devolver = false;
             do
             {
                 Console.WriteLine(String.Format("Por favor, ingrese el valor para el campo {0} (S/N)", Campo));
                 input = Console.ReadLine();
                 if ((input == "S") || (input == "s"))
                 {
-                    return true;
+                    Devolver = true;
                 }
                 else if ((input == "N") || (input == "n"))
                 {
-                    return false;
+                    Devolver = false;
                 }
                 else
                 {
                     Console.WriteLine("Entrada incorrecta, por favor reintente.");
                 }
             } while (input != "N" || input != "n" || input != "S" || input != "s");
+
+            return Devolver;
         }
 
     }

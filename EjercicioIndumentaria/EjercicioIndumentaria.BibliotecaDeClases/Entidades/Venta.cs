@@ -32,6 +32,16 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
             return Suma;
         }
 
+        public int GetCantidadTotal()
+        {
+            int Suma = 0;
+            foreach (VentaItem i in this._items)
+            {
+                Suma += i.Cantidad;
+            }
+            return Suma;
+        }
+
         public int Codigo
         {
             get
@@ -50,6 +60,22 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
             set
             {
                 _estado = value;
+            }
+        }
+
+        public Cliente Cliente
+        {
+            get
+            {
+                return _cliente;
+            }
+        }
+
+        public List<VentaItem> Items
+        {
+            get
+            {
+                return _items;
             }
         }
     }
