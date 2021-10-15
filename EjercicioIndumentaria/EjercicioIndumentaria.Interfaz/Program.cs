@@ -336,6 +336,21 @@ namespace EjercicioIndumentaria.Interfaz
             }
 
         }
+
+        private static void DevolverOrden()
+        {
+            int CodigoVenta = Validaciones.PedirInt("código de la venta que desea devolver");
+            Venta vtadevolver = new Venta(CodigoVenta);
+            try
+            {
+                TiendaRopa.DevolverOrden(vtadevolver);
+                Console.WriteLine("Venta devuelta satisfactoriamente.");
+            }
+            catch (Exception exce)
+            {
+                Console.WriteLine(exce.Message);
+            }
+        }
   
 
     }

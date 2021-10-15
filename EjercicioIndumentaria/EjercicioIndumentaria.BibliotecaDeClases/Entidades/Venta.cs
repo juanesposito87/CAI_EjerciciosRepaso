@@ -22,6 +22,11 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
             _codigo = TiendaRopa.GetProximoCodigo();
         }
 
+        public Venta(int Codigo)
+        {
+            _codigo = Codigo;
+        }
+
         public double GetTotalPedido()
         {
             double Suma = 0;

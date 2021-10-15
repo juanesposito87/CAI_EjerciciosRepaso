@@ -111,7 +111,26 @@ namespace EjercicioIndumentaria.BibliotecaDeClases.Entidades
 
         public static void DevolverOrden(Venta v)
         {
-            v.Estado = (int)EstadoVenta.Devuelto;    
+            Venta adevolver = ListarOrden().Find(dv => dv.Codigo == v.Codigo);
+            if(adevolver != null)
+            {
+                foreach(VentaItem item in adevolver.Items)
+                {
+                    foreach (Indumentaria ind in TiendaRopa.Inventario)
+                    {
+                        if(item.Prenda.Codigo == ind.Codigo)
+                        {
+                            ind.Stock += item.Cantidad;
+                        }
+                    }
+                }
+                ListarOrden().Find(dv => dv.Codigo == v.Codigo).Estado = (int)EstadoVenta.Devuelto;
+            }
+            else
+            {
+                throw new Exception("La venta ingresada no existe.");
+            }
+             
         }
 
         public static void Modificar(Indumentaria i, int NuevoStock)
