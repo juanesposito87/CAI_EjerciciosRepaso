@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EjercicioIndumentaria.Utilidades
+namespace Parcial1.Esposito.Utilidades
 {
     public static class Validaciones
     {
@@ -15,14 +15,14 @@ namespace EjercicioIndumentaria.Utilidades
             return Console.ReadLine();
         }
 
-        public static bool ValidarNoVacio (string Valor)
+        public static bool ValidarNoVacio(string Valor)
         {
             return !(String.IsNullOrEmpty(Valor));
         }
 
 
         //Validaciones de Números
-        public static int PedirInt (string Campo)
+        public static int PedirInt(string Campo)
         {
             bool Flag = false;
             string Dato = "";
@@ -31,7 +31,7 @@ namespace EjercicioIndumentaria.Utilidades
             {
                 Dato = Validaciones.PedirString(Campo);
                 Flag = int.TryParse(Dato, out IntValidado);
-                if(!Flag)
+                if (!Flag)
                 {
                     Console.WriteLine("Error, el dato debe ser un número entero.");
                 }
@@ -79,7 +79,7 @@ namespace EjercicioIndumentaria.Utilidades
 
         }
 
-        public static bool ValidarPositivo (int Dato)
+        public static bool ValidarPositivo(int Dato)
         {
             return (Dato > 0);
         }
@@ -126,15 +126,15 @@ namespace EjercicioIndumentaria.Utilidades
 
         public static int Antiguedad(DateTime FechaPosterior, DateTime FechaAnterior)
         {
-                if ((FechaPosterior.Month >= FechaAnterior.Month) && (FechaPosterior.Day >= FechaAnterior.Day))
-                {
-                    return (FechaPosterior.Year - FechaAnterior.Year);
+            if ((FechaPosterior.Month >= FechaAnterior.Month) && (FechaPosterior.Day >= FechaAnterior.Day))
+            {
+                return (FechaPosterior.Year - FechaAnterior.Year);
 
-                }
-                else
-                {
-                    return (FechaPosterior.Year - FechaAnterior.Year - 1);
-                }
+            }
+            else
+            {
+                return (FechaPosterior.Year - FechaAnterior.Year - 1);
+            }
         }
 
         public static bool FechaFutura(DateTime Fecha)
@@ -168,5 +168,79 @@ namespace EjercicioIndumentaria.Utilidades
             return Devolver;
         }
 
+        public static string BoolASiNo(bool Dato)
+        {
+            if (Dato)
+            {
+                return "SI";
+            }
+            else
+            {
+                return "NO";
+            }
+        }
+
+
+        // menu
+        /*
+        private static void DesplegarMenu()
+        {
+            List<String> OpcionesPosibles = new List<string>();
+            string Seleccion = "";
+            OpcionesPosibles.Add("1");
+            OpcionesPosibles.Add("2");
+            OpcionesPosibles.Add("3");
+            OpcionesPosibles.Add("4");
+            OpcionesPosibles.Add("5");
+            OpcionesPosibles.Add("6");
+            OpcionesPosibles.Add("7");
+            OpcionesPosibles.Add("8");
+            do
+            {
+                Console.WriteLine(
+                    "Por favor, seleccione una opción del menú:\n" +
+                    "1) Listar Indumentarias\n" +
+                    "2) Agregar \n" +
+                    "3) Modificar \n" +
+                    "4) Eliminar \n" +
+                    "5) Listar \n" +
+                    "6) Ingresar \n" +
+                    "7) Devolver \n" +
+                    "8) Salir");
+
+                Seleccion = Console.ReadLine();
+            } while (!(OpcionesPosibles.Contains(Seleccion)));
+
+            switch (Seleccion)
+            {
+                case "1":
+                    ListarIndumentarias();
+                    break;
+                case "2":
+                    AgregarIndumentarias();
+                    break;
+                case "3":
+                    ModificarIndumentarias();
+                    break;
+                case "4":
+                    EliminarIndumentaria();
+                    break;
+                case "5":
+                    ListarOrdenes();
+                    break;
+                case "6":
+                    IngresarOrden();
+                    break;
+                case "7":
+                    DevolverOrden();
+                    break;
+                case "8":
+                    Console.WriteLine("Gracias, hasta luego");
+                    break;
+                default:
+                    break;
+            }
+        }
+        */
     }
 }

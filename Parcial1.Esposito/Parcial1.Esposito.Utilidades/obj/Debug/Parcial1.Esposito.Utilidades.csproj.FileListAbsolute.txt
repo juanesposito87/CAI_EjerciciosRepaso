@@ -1,0 +1,6 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Utilidades\bin\Debug\Parcial1.Esposito.Utilidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Utilidades\bin\Debug\Parcial1.Esposito.Utilidades.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Utilidades\obj\Debug\Parcial1.Esposito.Utilidades.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Utilidades\obj\Debug\Parcial1.Esposito.Utilidades.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Utilidades\obj\Debug\Parcial1.Esposito.Utilidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Utilidades\obj\Debug\Parcial1.Esposito.Utilidades.pdb

@@ -1,0 +1,6 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.BibliotecaClases\bin\Debug\Parcial1.Esposito.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.BibliotecaClases\bin\Debug\Parcial1.Esposito.BibliotecaClases.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.BibliotecaClases\obj\Debug\Parcial1.Esposito.BibliotecaClases.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.BibliotecaClases\obj\Debug\Parcial1.Esposito.BibliotecaClases.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.BibliotecaClases\obj\Debug\Parcial1.Esposito.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.BibliotecaClases\obj\Debug\Parcial1.Esposito.BibliotecaClases.pdb

@@ -1,0 +1,12 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.Interfaz.exe.config
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.Interfaz.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.Interfaz.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.BibliotecaClases.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.Utilidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.BibliotecaClases.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\bin\Debug\Parcial1.Esposito.Utilidades.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\obj\Debug\Parcial1.Esposito.Interfaz.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\obj\Debug\Parcial1.Esposito.Interfaz.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\obj\Debug\Parcial1.Esposito.Interfaz.csproj.CopyComplete
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\obj\Debug\Parcial1.Esposito.Interfaz.exe
+C:\CAI - Práctica\CAI_EjerciciosRepaso\Parcial1.Esposito\Parcial1.Esposito.Interfaz\obj\Debug\Parcial1.Esposito.Interfaz.pdb
