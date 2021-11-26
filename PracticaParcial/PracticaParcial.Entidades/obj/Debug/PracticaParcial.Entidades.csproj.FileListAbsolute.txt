@@ -1,0 +1,6 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Entidades\bin\Debug\PracticaParcial.Entidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Entidades\bin\Debug\PracticaParcial.Entidades.pdb
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Entidades\obj\Debug\PracticaParcial.Entidades.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Entidades\obj\Debug\PracticaParcial.Entidades.csproj.CoreCompileInputs.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Entidades\obj\Debug\PracticaParcial.Entidades.dll
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Entidades\obj\Debug\PracticaParcial.Entidades.pdb

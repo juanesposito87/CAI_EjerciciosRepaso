@@ -1,0 +1,1 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Negocio\obj\Debug\PracticaParcial.Negocio.csproj.CoreCompileInputs.cache

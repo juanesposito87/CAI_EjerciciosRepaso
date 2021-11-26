@@ -1,0 +1,5 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Interfaz\obj\Debug\PracticaParcial.Interfaz.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Interfaz\obj\Debug\PracticaParcial.Interfaz.FrmTarjeta.resources
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Interfaz\obj\Debug\PracticaParcial.Interfaz.Properties.Resources.resources
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Interfaz\obj\Debug\PracticaParcial.Interfaz.csproj.GenerateResource.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Interfaz\obj\Debug\PracticaParcial.Interfaz.csproj.CoreCompileInputs.cache

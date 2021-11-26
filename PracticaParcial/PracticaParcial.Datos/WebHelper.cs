@@ -18,7 +18,7 @@ namespace PracticaParcial.Datos
         {
             client = new WebClient();
             client.Encoding = Encoding.UTF8;
-            //rutaBase = "https://cai-api.azurewebsites.net/api/v1/";
+            rutaBase = "https://cai-api.azurewebsites.net/api/v1/";
             client.Headers.Add("ContentType", "application/json");
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         }

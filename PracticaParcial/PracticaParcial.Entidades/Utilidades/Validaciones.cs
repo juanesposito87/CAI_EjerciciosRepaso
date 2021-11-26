@@ -198,5 +198,12 @@ namespace PracticaParcial.Entidades.Utilidades
                 throw new Exception("Debe completar el campo de texto.");
         }
 
+        public static int Get3Random()
+        {
+            Random random = new Random();
+            int ultimos3dígitos = random.Next(100, 999);
+            return ultimos3dígitos;
+        }
+
     }
 }

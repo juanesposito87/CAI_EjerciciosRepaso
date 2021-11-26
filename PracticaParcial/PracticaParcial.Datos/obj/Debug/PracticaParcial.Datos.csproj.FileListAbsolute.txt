@@ -1,0 +1,2 @@
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Datos\obj\Debug\PracticaParcial.Datos.csproj.AssemblyReference.cache
+C:\CAI - Práctica\CAI_EjerciciosRepaso\PracticaParcial\PracticaParcial.Datos\obj\Debug\PracticaParcial.Datos.csproj.CoreCompileInputs.cache
