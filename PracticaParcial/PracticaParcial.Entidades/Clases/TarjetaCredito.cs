@@ -81,5 +81,10 @@ namespace PracticaParcial.Entidades.Clases
 
         public string NroPlastico { get => _nroPlastico; set => _nroPlastico = value; }
         public string Usuario { get => _usuario; set => _usuario = value; }
+
+        public override string ToString()
+        {
+            return String.Format("{0} - Tarjeta {1} - Número {2} - {3}", IdCliente, Tipo, LimiteCompra.ToString("0.00"));
+        }
     }
 }

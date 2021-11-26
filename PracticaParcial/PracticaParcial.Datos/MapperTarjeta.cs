@@ -11,6 +11,11 @@ namespace PracticaParcial.Datos
 {
     public class MapperTarjeta
     {
-
+        public List<TarjetaCredito> GetTarjetas()
+        {
+            string json = WebHelper.Get("tarjetacredito");
+            List<TarjetaCredito> devolver = JsonConvert.DeserializeObject<List<TarjetaCredito>>(json);
+            return devolver;
+        }
     }
 }

@@ -17,28 +17,56 @@ namespace PracticaParcial.Interfaz
     {
         private ClienteNegocio _servicioClientes;
         private TarjetaNegocio _servicioTarjetas;
-        private List<TipoTarjeta> _tipoTarjeta;
-        private List<PeriodoCierre> _periodoCierre;
+        private List<TarjetaCredito> _tarjetas;
         public FrmTarjeta()
         {
-            InitializeComponent();
             _servicioClientes = new ClienteNegocio();
+            _servicioTarjetas = new TarjetaNegocio();
+            InitializeComponent();
         }
 
         private void FrmTarjeta_Load(object sender, EventArgs e)
         {
+            CargarCombos();
+            RecargarLista();
+            RecargarCalculos();
+
+
+        }
+
+        private void LimpiarTodo()
+        {
+
+        }
+
+        private void CargarCombos()
+        {
             cbxTipoTarjeta.DataSource = null;
-            cbxTipoTarjeta.DataSource = _tipoTarjeta;
+            cbxTipoTarjeta.DataSource = Enum.GetValues(typeof(TipoTarjeta));
             cbxTipoTarjeta.DisplayMember = "GetType";
             cbxTipoTarjeta.ValueMember = "GetTypeCode";
 
             cbxPeriodoCierre.DataSource = null;
-            cbxPeriodoCierre.DataSource = _periodoCierre;
+            cbxPeriodoCierre.DataSource = Enum.GetValues(typeof(PeriodoCierre));
             cbxPeriodoCierre.DisplayMember = "GetType";
             cbxPeriodoCierre.ValueMember = "GetTypeCode";
 
             cbxCliente.DataSource = null;
             cbxCliente.DataSource = _servicioClientes.TraerClientes();
+            cbxPeriodoCierre.DisplayMember = "Display";
+            cbxPeriodoCierre.ValueMember = "id";
+
+        }
+
+        private void RecargarLista()
+        {
+            lstTarjetas.DataSource = null;
+            lstTarjetas.DataSource = _servicioTarjetas.TraerTarjetas();
+        }
+
+        private void RecargarCalculos()
+        {
+
         }
     }
 }

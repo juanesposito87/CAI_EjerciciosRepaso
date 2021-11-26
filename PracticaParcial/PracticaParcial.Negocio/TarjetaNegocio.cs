@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PracticaParcial.Datos;
+using PracticaParcial.Entidades.Clases;
 
 namespace PracticaParcial.Negocio
 {
@@ -16,5 +17,9 @@ namespace PracticaParcial.Negocio
             _mapperTarjeta = new MapperTarjeta();
         }
 
+        public List<TarjetaCredito> TraerTarjetas()
+        {
+            return _mapperTarjeta.GetTarjetas();
+        }
     }
 }

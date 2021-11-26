@@ -52,5 +52,13 @@ namespace PracticaParcial.Entidades.Clases
             _id = Numero;
             Numero++;
         }
+
+        public string Display
+        {
+            get
+            {
+                return String.Format("{0} - {1}, {2}", Id, Apellido, Nombre);
+            }
+        }
     }
 }
